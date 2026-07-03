@@ -95,11 +95,11 @@ Then wire it to your extension:
 
 2. Register the host with Chrome:
 
-Open powershell **inside** the `native-host` folder
+Open powershell **inside** the `native-host` folder:
 
-    ```powershell
+```powershell
     powershell -ExecutionPolicy Bypass -File install-windows.ps1
-    ```
+```
 
 ---
 
