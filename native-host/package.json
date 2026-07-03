@@ -1,0 +1,13 @@
+{
+	"name": "orbit-lite-host",
+	"version": "1.0.0",
+	"description": "Orbit Lite native messaging host (SQLite writer).",
+	"private": true,
+	"main": "host.js",
+	"scripts": {
+		"inspect": "node inspect.js"
+	},
+	"dependencies": {
+		"better-sqlite3": "^11.0.0"
+	}
+}

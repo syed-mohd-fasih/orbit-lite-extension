@@ -1,0 +1,7 @@
+{
+	"name": "com.orbitlite.host",
+	"description": "Orbit Lite native messaging host — writes parsed portal data to local SQLite.",
+	"path": "host.bat",
+	"type": "stdio",
+	"allowed_origins": ["chrome-extension://YOUR_EXTENSION_ID_HERE/"]
+}
