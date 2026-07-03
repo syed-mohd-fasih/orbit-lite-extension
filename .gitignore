@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+native-host/node_modules/
+
+# Build output
+dist/
+
+# Native module build artifacts (better-sqlite3)
+native-host/build/
+native-host/prebuilds/
+
+# Local runtime data (never commit a student's DB or logs)
+.orbit-lite/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+host.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
