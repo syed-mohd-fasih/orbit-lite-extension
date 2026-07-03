@@ -47,7 +47,7 @@ I dunno... just wanted to do something about flex before I moved on from this Un
 
 ## Prerequisites
 
-- **Google Chrome** (or any Chromium browser: Edge, Brave).
+- **Google Chrome** (or any Chromium browser: Edge, Brave, Opera, Opera GX... blah blah blah).
 - **Node.js 18+** (developed on Node 22).
 - **Windows** for the native-host installer script below. macOS/Linux users can
   register the host manually (see [Other platforms](#other-platforms)).
