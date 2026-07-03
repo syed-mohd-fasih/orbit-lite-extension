@@ -93,3 +93,23 @@ body {
 .btn--primary:hover { filter: brightness(1.07); }
 .btn--ghost { background: transparent; color: var(--text); border-color: var(--border); }
 .btn--ghost:hover { border-color: var(--violet); color: var(--violet); }
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 14px;
+	padding-top: 10px;
+	border-top: 1px solid var(--border);
+	font-size: 11px;
+	color: var(--muted);
+}
+.footer__by strong { color: var(--text); font-weight: 600; }
+.footer__links { display: flex; align-items: center; gap: 10px; }
+.footer__links a {
+	display: inline-flex;
+	color: var(--muted);
+	transition: color 0.15s ease, transform 0.06s ease;
+}
+.footer__links a:hover { color: var(--violet); }
+.footer__links a:active { transform: translateY(1px); }
